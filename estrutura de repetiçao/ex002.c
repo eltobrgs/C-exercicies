@@ -6,18 +6,14 @@ int main() {
     // A condição é i <= 10, ou seja, o loop continuará enquanto i for menor ou igual a 10
     // Após cada iteração, i é incrementado em 1 (i++)
     for (int i = 1; i <= 10; i++) {
-        printf("%d\n", i);
-        if (i%2 == 0)
-        {
+        printf("Número: %d\n", i); // Imprime o número antes de verificar se é par ou ímpar
+        if (i % 2 == 0) {
             // Se o número é par, imprime "Par"
             printf("Par\n");
-        }
-        else
-        {
+        } else {
             // Se o número é ímpar, imprime "Ímpar"
             printf("Ímpar\n");
         }
-        
     }
 
     // Fim do loop for
